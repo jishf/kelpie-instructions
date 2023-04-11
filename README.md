@@ -4,13 +4,13 @@
 
 To use your Kelpie instance, please download the Cyberduck tool:
 
-- For Windows users: https://update.cyberduck.io/windows/Cyberduck-Installer-8.5.8.39606.exe
-- For Mac users: https://update.cyberduck.io/Cyberduck-8.5.8.39606.zip
+- For Windows users: [https://update.cyberduck.io/windows/Cyberduck-Installer-8.5.8.39606.exe](https://update.cyberduck.io/windows/Cyberduck-Installer-8.5.8.39606.exe)
+- For Mac users: [https://update.cyberduck.io/Cyberduck-8.5.8.39606.zip](https://update.cyberduck.io/Cyberduck-8.5.8.39606.zip)
 - For Mac users with Homebrew: `brew install --cask cyberduck`
 
-In the config pack sent over separately, you will have the following:
+In the config pack sent over separately, there will be:
 
-- a `.cyberduckprofile` file - this contains the "bookmark" for your Kelpie instance
+- a `.cyberduckprofile` file - this contains the "bookmark" for your Kelpie instance - Cyberduck uses "bookmarks" to record storage instances
 - a credentials file - containing the access key and secret key to add to the "bookmark"
 
 ## Configuring Cyberduck
