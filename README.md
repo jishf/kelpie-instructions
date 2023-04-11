@@ -15,15 +15,19 @@ In the config pack sent over separately, there will be:
 
 ## Configuring Cyberduck
 
-Before adding the Cyberduck profile, the following configuration items should be changed to ensure Kelpie uses Ionburst Cloud efficiently.
+Before adding the Cyberduck profile, the following configuration items need to be changed to ensure Kelpie uses Ionburst Cloud efficiently.
 
-The configuration items to be changed cover:
+The configuration items we will update cover:
 
 - setting the multipart chunk size to 50MB
 - setting the multipart threshold to 50MB
 - disabling "segmented downloads"
 
 After updating these settings, Cyberduck must be **fully restarted**.
+
+For Mac users, go to [Mac.](#mac)
+
+For Windows users, go to [Windows.](#windows)
 
 ### Mac
 
@@ -54,6 +58,8 @@ Open the Cyberduck application, then open settings from the Cyberduck menu bar:
 In the settings window, navigate to the "Transfers" tab, and un-check the "Segmented downloads with multiple connections per file" option under "Downloads":
 
 ![image info](./cyberduck-segmented-disabled.png)
+
+We can now continue to [Adding the Kelpie Profile](#adding-the-kelpie-profile)
 
 ### Windows
 
