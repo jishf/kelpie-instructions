@@ -1,0 +1,5 @@
+config-*
+*.zip
+*.pdf
+*.cyberduckprofile
+.DS_Store
