@@ -23,8 +23,6 @@ The configuration items we will update cover:
 - setting the multipart threshold to 50MB
 - disabling "segmented downloads"
 
-After updating these settings, Cyberduck must be **fully restarted**.
-
 For Mac users, go to [Mac.](#mac)
 
 For Windows users, go to [Windows.](#windows)
@@ -59,6 +57,8 @@ In the settings window, navigate to the "Transfers" tab, and un-check the "Segme
 
 ![image info](./cyberduck-segmented-disabled.png)
 
+After updating these settings, Cyberduck must be **fully restarted**.
+
 We can now continue to [Adding the Kelpie Profile](#adding-the-kelpie-profile)
 
 ### Windows
@@ -87,6 +87,8 @@ Open the Cyberduck application, then open "Preferences" from the Cyberduck edit 
 In the Preferences window, navigate to the "Transfers" tab, and un-check the "Segmented downloads with multiple connections per file" option under "Downloads":
 
 ![image info](./cyberduck-segmented-disabled-w11.png)
+
+After updating these settings, Cyberduck must be **fully restarted**.
 
 ## Adding the Kelpie profile
 
