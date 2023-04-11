@@ -78,6 +78,8 @@ s3.upload.multipart.size=50000000
 s3.upload.multipart.threshold=50000000
 ```
 
+You can now save and close the file.
+
 #### Segmented download settings
 
 Open the Cyberduck application, then open "Preferences" from the Cyberduck edit menu.
