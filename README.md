@@ -102,13 +102,13 @@ Once these details are added, you can safely close the window. In the main Cyber
 
 ![image info](./cyberduck-bookmarks.png)
 
-To access your Kelpie instance, double-click the "bookmark". This may throw up an additional authentication window, if so, paste your Secret Key into the empty field again to authenticate. Mac users can check the "Add to Keychain" box to save these credentials:
+To access your Kelpie instance, double-click the bookmark. This may throw up an additional authentication window, if so, paste your Secret Key into the empty field again to authenticate. Mac users can check the "Add to Keychain" box to save these credentials:
 
 ![image info](./cyberduck-kelpie-login.png)
 
 ## Using Cyberduck
 
-Once opened, the Kelpie instance will displayed like so in Cyberduck:
+Once opened, the Kelpie instance will be displayed like so in Cyberduck:
 
 ![image info](./cyberduck-kelpie.png)
 
@@ -116,25 +116,31 @@ On first use, this window will be blank. As the "root" of the Kelpie instance, t
 
 ### Creating a Bucket
 
-To create a bucket, right-click in the Cyberduck window, and select "New Folder". In this window, enter your bucket name (must be 3 characters or longer), and click "Create".
+To create a bucket, right-click in the Cyberduck window, and select "New Folder". 
+
+In this window, enter your bucket name (must be between 3 and 64 characters, can only be lowercase, and cannot contain spaces). Once chosen, click "Create".
 
 ![image info](./cyberduck-create-bucket.png)
 
 ### Adding Files
 
-With your bucket created, you can start adding files. Navigate into your bucket in the Cyberduck window, and from here you can either right-click and select "Upload", or drag files directly into Cyberduck window.
+With your bucket created, you can start adding files. 
+
+Navigate into your bucket in the Cyberduck window by double-clicking the folder, and from here you can either right-click and select "Upload", or drag files directly into the folder.
 
 Once files have been chosen for upload, Cyberduck will open a "Transfers" window that shows upload and download progress:
 
 ![image info](./cyberduck-transfers.png)
 
-Upon successful upload, the file will appear in your bucket in the Cyberduck window:
+Upon successful upload, the file will appear in your bucket:
 
 ![image info](./cyberduck-file-list.png)
 
 ### Retrieving Files
 
 Much like uploads, downloads from a Kelpie bucket can either be done by right-clicking on the file(s) in the bucket and selecting "Download" (or "Download As" to change the name, or "Download To" to change the download location), or dragging the file(s) from the Cyberduck window to a folder on your local machine.
+
+The default location for any files retrieved by Cyberduck is the Downloads folder of the local machine.
 
 Any files downloaded from a Kelpie bucket will appear in the Cyberduck "Transfers" window:
 
